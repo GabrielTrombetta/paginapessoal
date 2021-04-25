@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/formulario.css" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario para contato:</h1>
+    </header>
+    <form>
+        <div>
+            <h3>Preencha os dados:</h3>
+        </div>
+        <div>
+            <div class="labels">
+                <label for="nome">Nome:</label>
+            </div>
+            <div class="boxes">
+                <input type="text" name="nome" id="nome">
+            </div>
+        </div>
+        <div>
+            <div class="labels">
+                <label for="fone">Fone:</label>
+            </div>
+            <div class="boxes">
+                <input type="tel" name="fone" id="fone">
+            </div>
+        </div>
+        <div>
+            <div class="labels">
+                <label for="email">E-mail:</label>
+            </div>
+            <div class="boxes">
+                <input type="email" name="email" id="email">
+            </div>
+        </div>
+        <div>
+            <div class="labels">
+                <label for="motivo">Motivo:</label>
+            </div>
+            <div class="boxes" id="boxMotivo">
+                <select name="motivo" id="motivo">
+                    <option value="profissional">Profissional</option>
+                    <option value="duvidas">Duvidas</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div class="labels">
+                <label for="comentarios">Comentários:</label>
+            </div>
+            <div class="boxes" id="boxComentarios">
+                <input type="text" name="comentarios" id="comentarios">
+            </div>
+        </div>
+        <div class="botao">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <div id="btnVoltar">
+    <button><a href="index.html">Voltar a Página Principal</a></button>
+    </div>
+</body>
+</html>

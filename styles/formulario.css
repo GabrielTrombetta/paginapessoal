@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    padding: 10px 10px 10px 50px;
+    font-size: 0.9em;
+    background-color: black;
+    color: rgb(183, 0, 255);
+    width: 500px;
+}
+
+form{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0,0.1);
+    width: 500px;
+}
+
+form div{
+    display: flex;
+    width: 450px;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+
+form input[type=text], input[type=email], input[type=tel]{
+    font-size: 15px;
+    background-color: rgba(248, 206, 156, 0.15);
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+}
+
+.labels{
+    font-style: italic;
+    font-weight: bold;
+    padding: 1px;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.boxes{
+    display: flex;
+    width: 400px;
+    justify-content: flex-end;
+}
+
+#boxMotivo{
+    justify-content: flex-start;
+}
+
+#boxComentarios input[type=text]{
+    border: none;
+    border: 1px solid black;
+    padding: 2px 2px;
+    height: 100px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+form .botao{
+    justify-content: center;
+}
+
+form input[type=submit]{
+    padding: 20px;
+}
+
+#btnVoltar{
+    text-align: center;
+    width: 500px;
+}
+
+button{
+  padding: 10px;
+}
+
+button a{
+    text-decoration: none;
+    padding: 10px;
+}
